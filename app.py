@@ -45,6 +45,42 @@ def Home():
     st.markdown("---")
     st.markdown("## Temario del Curso")
 
+    df_temario = pd.DataFrame({
+        "Sesión": [
+            "1", "2", "3", "4", "5",
+            "6", "7", "8", "9", "10"
+        ],
+        "Tema": [
+            "Introducción al modelamiento molecular y química computacional",
+            "Representación molecular y optimización geométrica",
+            "Energía molecular y superficies de energía potencial",
+            "Campos de fuerza y métodos de cálculo",
+            "Introducción a mecanismos de reacción",
+            "Coordenada de reacción y estados de transición",
+            "Cálculo y análisis de barreras de energía",
+            "Mecanismos de reacción orgánica",
+            "Mecanismos en química inorgánica y de materiales",
+            "Integración y estudio de casos"
+        ]
+    })
+    
+    styled_df = (
+        df_temario.style
+        .set_properties(**{
+            "text-align": "left",
+            "font-size": "15px"
+        })
+        .set_table_styles([
+            {"selector": "th",
+             "props": [("font-size", "16px"),
+                       ("font-weight", "bold"),
+                       ("text-align", "center")]}
+        ])
+    )
+    
+    st.dataframe(styled_df, use_container_width=True)
+
+    """
     temario = {
         "Sesión 1": "Introducción al modelamiento molecular y química computacional",
         "Sesión 2": "Representación molecular y optimización geométrica",
@@ -61,6 +97,7 @@ def Home():
     for s, d in temario.items():
         st.markdown(f"### {s}")
         st.write(d)
+    """
 
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
