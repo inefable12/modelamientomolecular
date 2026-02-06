@@ -23,7 +23,7 @@ def Home():
     st.text("Curso Virtual Teórico–Práctico")
     st.markdown("---")
 
-    st.image("imagenes_/molecula2.png"
+    st.image("imagenes_/molecula2.png")
              
     st.write("""
     Bienvenidos a la plataforma web del curso, en este espacio se irá compartiendo el contenido de las sesiones semana a semana: 
