@@ -87,7 +87,7 @@ def Home():
     st.markdown(
         f"""
         <div style='text-align: center; color: #555555;'>
-            <small>🧬 Desarrollado por st.link_button("Jesus Alvarado", "https://github.com/inefable12/") </small>
+            <small>🧬 Desarrollado por Jesus Alvarado H. </small>
         </div>
         """,
         unsafe_allow_html=True
