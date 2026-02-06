@@ -92,8 +92,8 @@ def Home():
     
     with col_right:
         st.image(
-            "img/modelamiento_molecular.png",
-            caption="Curso de Modelamiento Molecular",
+            "imgagenes_/colegioquimico.png",
+            #caption="Curso de Modelamiento Molecular",
             use_container_width=True
         )
     
