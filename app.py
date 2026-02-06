@@ -59,8 +59,8 @@ def Home():
             "Cálculo y análisis de barreras de energía",
             "Mecanismos de reacción orgánica",
             "Mecanismos en química inorgánica y de materiales",
-            "Integración y estudio de casos"
-        ]
+            "Integración y estudio de casos"],
+        "Fecha": ["9FEB","16FEB","23FEB","2MAR","9MAR","16MAR","23MAR","30MAR","6ABR","13ABR"]
     })
     
     # ------------------ Layout ------------------
