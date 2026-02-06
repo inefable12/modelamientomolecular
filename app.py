@@ -73,11 +73,11 @@ def Home():
             hide_index=True,
             use_container_width=True
         )
+        st.video("imagenes_/video2.mp4") 
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
                 caption="Representación Molecular") 
         
     with col_right:
-        st.video("imagenes_/video1.mp4") 
         st.image("imagenes_/tip4p.png", 
                  caption="Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo)",
                  use_container_width=True)
