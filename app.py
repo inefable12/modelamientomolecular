@@ -20,14 +20,12 @@ st.sidebar.image("imagenes_/colegioquimico.png",
 def Home():
     #st.image("imagenes_/colegio_quimico_cusco.png")
     st.title("MODELAMIENTO MOLECULAR Y MECANISMO DE REACCIÓN")
-    st.subheader("Curso Virtual Teórico–Práctico | Colegio Químico ")
+    st.text("Curso Virtual Teórico–Práctico")
     st.markdown("---")
 
     st.write("""
-    Este curso introduce los fundamentos del **modelamiento molecular**
-    aplicados al estudio de **estructuras moleculares, superficies de energía
-    potencial y mecanismos de reacción química**, integrando teoría y
-    herramientas computacionales.
+    Bienvenidos a la plataforma web del curso, en este espacio se irá compartiendo el contenido de las sesiones semana a semana: 
+    slides, tutoriales, código y más.
     """)
 
     st.markdown("### Objetivo General")
@@ -46,7 +44,7 @@ def Home():
 
     st.markdown("---")
     st.markdown("## Temario del Curso")
-    
+
     df_temario = pd.DataFrame({
         "Sesión": ["1","2","3","4","5","6","7","8","9","10"],
         "Tema": [
@@ -61,29 +59,12 @@ def Home():
             "Mecanismos en química inorgánica y de materiales",
             "Integración y estudio de casos"
         ]
-    }).reset_index(drop=True)
+    })
     
-    # ------------------ Styling ------------------
-    styled_df = (
-        df_temario.style
-        .hide(axis="index")
-        #.hide_columns(["Sesión"])
-        .set_properties(**{
-            "text-align": "left",
-            "font-size": "15px"
-        })
-        .set_table_styles([
-            {"selector": "th",
-             "props": [
-                 ("font-size", "16px"),
-                 ("font-weight", "bold"),
-                 ("text-align", "center")
-             ]},
-            {"selector": "th.col0", "props": [("width", "90px")]},
-            {"selector": "th.col1", "props": [("width", "650px")]},
-            {"selector": "td.col0", "props": [("width", "90px")]},
-            {"selector": "td.col1", "props": [("width", "650px")]}
-        ])
+    st.dataframe(
+        df_temario[["Tema"]],
+        hide_index=True,
+        use_container_width=True
     )
     
     # ------------------ Layout ------------------
@@ -96,9 +77,9 @@ def Home():
             hide_index=True,
             use_container_width=True
         )
-
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
-                caption="Representación Molecular") #, use_container_width=True) 
+                caption="Representación Molecular") 
+        
     with col_right:
         st.video("imagenes_/video1.mp4") 
         st.image("imagenes_/tip4p.png", 
