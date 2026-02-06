@@ -11,7 +11,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.sidebar.image("imagenes_/colegioquimico.png",caption="Modelamiento Molecular y Mecanismo de Reacción")
+st.sidebar.image("imagenes_/colegioquimico.png",
+                 caption="Modelamiento Molecular y Mecanismo de Reacción")
 
 # =========================================================
 # PÁGINA HOME – GENERALIDADES
@@ -91,12 +92,15 @@ def Home():
         st.dataframe(styled_df, use_container_width=False)
     
     with col_right:
-        st.image(
-            "imagenes_/colegioquimico.png",
-            caption="Curso de Modelamiento Molecular",
-            use_container_width=True
-        )
-    
+        video_file = open('imagenes_/video1.mp4')
+        video_bytes = video_file.read()
+        st.video(video_bytes)
+        #https://youtu.be/bM1ezD0qRZo
+        #st.image(
+        #    "imagenes_/colegioquimico.png",
+        #    caption="Curso de Modelamiento Molecular",
+        #    use_container_width=True)
+
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
     st.write("Docente: **Dr. Jesus Alvarado H**")
