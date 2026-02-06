@@ -92,7 +92,7 @@ def Home():
         st.dataframe(styled_df, use_container_width=False)
     
     with col_right:
-        video_file = open('imagenes_/video1.mp4')
+        video_file = open('imagenes_/video1.mp4','rb')
         video_bytes = video_file.read()
         st.video(video_bytes, use_container_width=True)
         #https://youtu.be/bM1ezD0qRZo
