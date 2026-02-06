@@ -94,7 +94,7 @@ def Home():
     with col_right:
         video_file = open('imagenes_/video1.mp4')
         video_bytes = video_file.read()
-        st.video(video_bytes)
+        st.video(video_bytes, use_container_width=True)
         #https://youtu.be/bM1ezD0qRZo
         #st.image(
         #    "imagenes_/colegioquimico.png",
