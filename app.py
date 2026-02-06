@@ -110,9 +110,11 @@ def page2():
     - Niveles de teoría
     """)
 
-    video1 = "https://youtu.be/5iVqq-indVw" 
-    st.markdown(f'<iframe src="{video1}" width="800" height="450"></iframe>',
-                unsafe_allow_html=True)
+    video_file = open('./imagenes_/video1.mp4','rb')
+    video_bytes = video_file.read()
+    
+    #video1 = "https://youtu.be/5iVqq-indVw" 
+    #st.markdown(f'<iframe src="{video1}" width="800" height="450"></iframe>', unsafe_allow_html=True)
 
 # =========================================================
 # SESIÓN 2
