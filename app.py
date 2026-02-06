@@ -45,12 +45,9 @@ def Home():
 
     st.markdown("---")
     st.markdown("## Temario del Curso")
-
+    
     df_temario = pd.DataFrame({
-        "Sesión": [
-            "1", "2", "3", "4", "5",
-            "6", "7", "8", "9", "10"
-        ],
+        "Sesión": ["1","2","3","4","5","6","7","8","9","10"],
         "Tema": [
             "Introducción al modelamiento molecular y química computacional",
             "Representación molecular y optimización geométrica",
@@ -63,38 +60,42 @@ def Home():
             "Mecanismos en química inorgánica y de materiales",
             "Integración y estudio de casos"
         ]
-    })
+    }).reset_index(drop=True)
     
-    # 🔹 Eliminamos índice explícitamente
-    df_temario = df_temario.reset_index(drop=True)
-    
-    # 🔹 Estilizado profesional
+    # ------------------ Styling ------------------
     styled_df = (
         df_temario.style
-        .hide(axis="index")  # <-- elimina índice visualmente
+        .hide(axis="index")
         .set_properties(**{
             "text-align": "left",
             "font-size": "15px"
         })
         .set_table_styles([
-            # Encabezados
             {"selector": "th",
              "props": [
                  ("font-size", "16px"),
                  ("font-weight", "bold"),
                  ("text-align", "center")
              ]},
-            # Ancho columnas
             {"selector": "th.col0", "props": [("width", "90px")]},
-            {"selector": "th.col1", "props": [("width", "700px")]},
+            {"selector": "th.col1", "props": [("width", "650px")]},
             {"selector": "td.col0", "props": [("width", "90px")]},
-            {"selector": "td.col1", "props": [("width", "700px")]}
+            {"selector": "td.col1", "props": [("width", "650px")]}
         ])
     )
     
-    st.dataframe(styled_df, use_container_width=False)
-
-
+    # ------------------ Layout ------------------
+    col_left, col_right = st.columns([3, 2])
+    
+    with col_left:
+        st.dataframe(styled_df, use_container_width=False)
+    
+    with col_right:
+        st.image(
+            "img/modelamiento_molecular.png",
+            caption="Curso de Modelamiento Molecular",
+            use_container_width=True
+        )
     
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
