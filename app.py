@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 st.sidebar.image("imagenes_/colegioquimico.png",
-                 caption="Modelamiento Molecular y Mecanismo de Reacción", width=300)
+                 caption="Modelamiento Molecular y Mecanismo de Reacción", width=200)
 
 # =========================================================
 # PÁGINA HOME – GENERALIDADES
