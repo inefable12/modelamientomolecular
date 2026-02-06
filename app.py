@@ -96,7 +96,7 @@ def Home():
     with col_right:
         st.video("imagenes_/video1.mp4") 
         st.image("imagenes_/tip4p.png", 
-                 caption="Modelo de agua para simulaciones de dinámica molecular",
+                 caption="Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo)",
                  use_container_width=True)
         st.image("imagenes_/tip5p.png", use_container_width=True)
 
