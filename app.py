@@ -16,7 +16,7 @@ st.sidebar.image("imagenes_/colegioquimico.png",caption="Modelamiento Molecular 
 # PÁGINA HOME – GENERALIDADES
 # =========================================================
 def Home():
-    st.image("imagenes_/colegio_quimico_cusco.png")
+    #st.image("imagenes_/colegio_quimico_cusco.png")
     st.title("MODELAMIENTO MOLECULAR Y MECANISMO DE REACCIÓN")
     st.subheader("Curso Virtual Teórico–Práctico | Colegio Químico ")
     st.markdown("---")
