@@ -99,7 +99,7 @@ def Home():
     
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
-    st.write("Docente: **Dr. Jesús Antonio Alvarado Huayhuaz**")
+    st.write("Docente: **Dr. Jesus Alvarado H**")
 
 # =========================================================
 # SESIÓN 1
@@ -256,7 +256,7 @@ selected_page = st.sidebar.selectbox("📚 Temario", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
 
 st.sidebar.markdown("---")
-st.sidebar.info("Autor: Dr. Jesús Antonio Alvarado Huayhuaz")
+st.sidebar.info("Autor: Dr. Jesus Alvarado H")
 st.sidebar.write("Laboratorio de Investigación en Biopolímeros y Metalofármacos")
 st.sidebar.write("Universidad Nacional de Ingeniería")
 st.sidebar.write("📧 inefable12@gmail.com")
