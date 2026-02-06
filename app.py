@@ -68,7 +68,7 @@ def Home():
     
     with col_left:
         st.dataframe(
-            df_temario[["Tema"]],
+            df_temario[["Sesión","Tema"]],
             hide_index=True,
             use_container_width=True
         )
