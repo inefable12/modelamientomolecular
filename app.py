@@ -63,12 +63,6 @@ def Home():
         ]
     })
     
-    st.dataframe(
-        df_temario[["Tema"]],
-        hide_index=True,
-        use_container_width=True
-    )
-    
     # ------------------ Layout ------------------
     col_left, col_right = st.columns([3, 2])
     
