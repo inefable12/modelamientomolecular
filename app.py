@@ -90,7 +90,13 @@ def Home():
     col_left, col_right = st.columns([3, 2])
     
     with col_left:
-        st.dataframe(styled_df, use_container_width=False)
+        #st.dataframe(styled_df, use_container_width=False)
+        st.dataframe(
+            df_temario[["Tema"]],
+            hide_index=True,
+            use_container_width=True
+        )
+
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
                 caption="Representación Molecular") #, use_container_width=True) 
     with col_right:
