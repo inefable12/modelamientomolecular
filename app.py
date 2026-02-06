@@ -20,7 +20,7 @@ st.sidebar.image("imagenes_/colegioquimico.png",
 def Home():
     #st.image("imagenes_/colegio_quimico_cusco.png")
     st.header("MODELAMIENTO MOLECULAR Y MECANISMO DE REACCIÓN", divider="rainbow")
-    st.markdown("---")
+    #st.markdown("---")
     st.text("Curso Virtual Teórico–Práctico")
 
     st.image("imagenes_/molecula2.png", caption = "Mapa de Potencial Electrostático")
