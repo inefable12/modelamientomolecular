@@ -92,9 +92,9 @@ def Home():
         st.dataframe(styled_df, use_container_width=False)
     
     with col_right:
-        #https://youtu.be/bM1ezD0qRZo
-        st.image("imagenes_/tip4p.png", use_container_width=True)
-        st.image("imagenes_/tip5p.png", use_container_width=True)
+        st.image("imagenes_/WIZARD_3PL1_esquema.png", use_container_width=True) 
+        #st.image("imagenes_/tip4p.png", use_container_width=True)
+        #st.image("imagenes_/tip5p.png", use_container_width=True)
 
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
