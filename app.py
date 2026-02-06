@@ -95,10 +95,10 @@ def Home():
                 caption="Representación Molecular") #, use_container_width=True) 
     with col_right:
         st.video("imagenes_/video1.mp4") 
-        st.image("imagenes_/tip4p.png", use_container_width=True)
-        st.image("imagenes_/tip5p.png",
+        st.image("imagenes_/tip4p.png", 
                  caption="Modelo de agua para simulaciones de dinámica molecular",
                  use_container_width=True)
+        st.image("imagenes_/tip5p.png", use_container_width=True)
 
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
