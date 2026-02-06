@@ -94,7 +94,7 @@ def Home():
     with col_right:
         #https://youtu.be/bM1ezD0qRZo
         st.image(
-            "imagenes_/colegioquimico.png",
+            "imagenes_/top5p.png",
             caption="Curso de Modelamiento Molecular",
             use_container_width=True)
 
@@ -112,7 +112,7 @@ def page2():
     - Niveles de teoría
     """)
 
-    video1 = "https://youtu.be/5iVqq-indVw"
+    video1 = "https://youtu.be/5iVqq-indVw" 
     st.markdown(f'<iframe src="{video1}" width="800" height="450"></iframe>',
                 unsafe_allow_html=True)
 
