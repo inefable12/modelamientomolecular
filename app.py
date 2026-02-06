@@ -93,10 +93,8 @@ def Home():
     
     with col_right:
         #https://youtu.be/bM1ezD0qRZo
-        st.image(
-            "imagenes_/tip5p.png",
-            caption="Curso de Modelamiento Molecular",
-            use_container_width=True)
+        st.image("imagenes_/tip4p.png", use_container_width=True)
+        st.image("imagenes_/tip5p.png", use_container_width=True)
 
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
