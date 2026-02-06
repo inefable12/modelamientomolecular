@@ -67,6 +67,7 @@ def Home():
     styled_df = (
         df_temario.style
         .hide(axis="index")
+        .hide_columns(["Sesión"])
         .set_properties(**{
             "text-align": "left",
             "font-size": "15px"
