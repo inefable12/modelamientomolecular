@@ -65,41 +65,37 @@ def Home():
         ]
     })
     
+    # 🔹 Eliminamos índice explícitamente
+    df_temario = df_temario.reset_index(drop=True)
+    
+    # 🔹 Estilizado profesional
     styled_df = (
         df_temario.style
+        .hide(axis="index")  # <-- elimina índice visualmente
         .set_properties(**{
             "text-align": "left",
             "font-size": "15px"
         })
         .set_table_styles([
+            # Encabezados
             {"selector": "th",
-             "props": [("font-size", "16px"),
-                       ("font-weight", "bold"),
-                       ("text-align", "center")]}
+             "props": [
+                 ("font-size", "16px"),
+                 ("font-weight", "bold"),
+                 ("text-align", "center")
+             ]},
+            # Ancho columnas
+            {"selector": "th.col0", "props": [("width", "90px")]},
+            {"selector": "th.col1", "props": [("width", "700px")]},
+            {"selector": "td.col0", "props": [("width", "90px")]},
+            {"selector": "td.col1", "props": [("width", "700px")]}
         ])
     )
     
-    st.dataframe(styled_df, use_container_width=True)
+    st.dataframe(styled_df, use_container_width=False)
 
-    """
-    temario = {
-        "Sesión 1": "Introducción al modelamiento molecular y química computacional",
-        "Sesión 2": "Representación molecular y optimización geométrica",
-        "Sesión 3": "Energía molecular y superficies de energía potencial",
-        "Sesión 4": "Campos de fuerza y métodos de cálculo",
-        "Sesión 5": "Introducción a mecanismos de reacción",
-        "Sesión 6": "Coordenada de reacción y estados de transición",
-        "Sesión 7": "Cálculo y análisis de barreras de energía",
-        "Sesión 8": "Mecanismos de reacción orgánica",
-        "Sesión 9": "Mecanismos en química inorgánica y de materiales",
-        "Sesión 10": "Integración y estudio de casos"
-    }
 
-    for s, d in temario.items():
-        st.markdown(f"### {s}")
-        st.write(d)
-    """
-
+    
     st.markdown("---")
     st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
     st.write("Docente: **Dr. Jesús Antonio Alvarado Huayhuaz**")
