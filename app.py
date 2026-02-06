@@ -74,7 +74,7 @@ def Home():
             use_container_width=True
         )
         st.video("imagenes_/video2.mp4") 
-        st.pdf("#https://drive.google.com/file/d/13wnL09Cpk5JMdT-Cjp9sjP87akUhD6fl/view?usp=sharing")
+        st.pdf("https://drive.google.com/file/d/13wnL09Cpk5JMdT-Cjp9sjP87akUhD6fl/view?usp=sharing")
         #https://www.sciencedirect.com/science/article/pii/S0187893X16300362/pdfft?md5=510583fb8dac84e0bfe6ed4dc6a92632&pid=1-s2.0-S0187893X16300362-main.pdf") 
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
                 caption="Representación Molecular") 
