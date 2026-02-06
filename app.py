@@ -92,7 +92,7 @@ def Home():
         st.dataframe(styled_df, use_container_width=False)
     
     with col_right:
-        st.video("imagenes_/video1.mp4", use_container_width=True)
+        st.video("imagenes_/video1.mp4")
         #st.image("imagenes_/WIZARD_3PL1_esquema.png", use_container_width=True) 
         #st.image("imagenes_/tip4p.png", use_container_width=True)
         #st.image("imagenes_/tip5p.png", use_container_width=True)
