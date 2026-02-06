@@ -67,16 +67,13 @@ def Home():
     col_left, col_right = st.columns([2, 2])
     
     with col_left:
-        #st.dataframe(styled_df, use_container_width=False)
         st.dataframe(
             df_temario[["Tema"]],
             hide_index=True,
             use_container_width=True
         )
         st.video("imagenes_/video2.mp4") 
-        st.pdf("https://www.researchgate.net/publication/309691937_Implementacion_de_Avogadro_como_visualizador_y_constructor_de_moleculas_para_alumnos_de_primer_ano_de_Odontologia_en_la_asignatura_Quimica_General_y_Organica/fulltext/581f0e0e08aea429b295ef9a/Implementacion-de-Avogadro-como-visualizador-y-constructor-de-moleculas-para-alumnos-de-primer-ano-de-Odontologia-en-la-asignatura-Quimica-General-y-Organica.pdf")
-        #https://drive.google.com/file/d/13wnL09Cpk5JMdT-Cjp9sjP87akUhD6fl/view?usp=sharing")
-        #https://www.sciencedirect.com/science/article/pii/S0187893X16300362/pdfft?md5=510583fb8dac84e0bfe6ed4dc6a92632&pid=1-s2.0-S0187893X16300362-main.pdf") 
+        st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
                 caption="Representación Molecular") 
         
