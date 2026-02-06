@@ -94,7 +94,7 @@ def Home():
     with col_right:
         #https://youtu.be/bM1ezD0qRZo
         st.image(
-            "imagenes_/top5p.png",
+            "imagenes_/tip5p.png",
             caption="Curso de Modelamiento Molecular",
             use_container_width=True)
 
