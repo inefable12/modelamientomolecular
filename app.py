@@ -6,8 +6,8 @@ import pandas as pd
 # CONFIGURACIÓN GENERAL
 # =========================================================
 st.set_page_config(
-    page_title="Modelamiento Molecular",
-    page_icon="🧬",
+    page_title="Curso Jesus Alvarado",
+    page_icon="☢️",
     layout="wide"
 )
 
@@ -19,7 +19,7 @@ st.sidebar.image("imagenes_/colegioquimico.png",
 # =========================================================
 def Home():
     #st.image("imagenes_/colegio_quimico_cusco.png")
-    st.title("MODELAMIENTO MOLECULAR Y MECANISMO DE REACCIÓN")
+    st.header("MODELAMIENTO MOLECULAR Y MECANISMO DE REACCIÓN", divider="rainbow")
     st.markdown("---")
     st.text("Curso Virtual Teórico–Práctico")
 
