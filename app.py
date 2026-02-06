@@ -84,8 +84,14 @@ def Home():
         st.image("imagenes_/tip5p.png", use_container_width=True)
 
     st.markdown("---")
-    st.info("Curso organizado por el Colegio de Químicos del Perú – Región Cusco")
-    st.write("Docente: **Dr. Jesus Alvarado H**")
+    st.markdown(
+        f"""
+        <div style='text-align: center; color: #555555;'>
+            <small>🧬 Desarrollado por st.link_button("Jesus Alvarado", "https://github.com/inefable12/") </small>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 # =========================================================
 # SESIÓN 1
@@ -98,8 +104,6 @@ def page2():
     """)
 
     st.video("imagenes_/video1.mp4")    
-    #video1 = "https://youtu.be/5iVqq-indVw" 
-    #st.markdown(f'<iframe src="{video1}" width="800" height="450"></iframe>', unsafe_allow_html=True)
 
 # =========================================================
 # SESIÓN 2
