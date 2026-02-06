@@ -110,7 +110,7 @@ def page2():
     - Niveles de teoría
     """)
 
-    video_file = open('./imagenes_/video1.mp4','rb')
+    video_file = open('imagenes_/video1.mp4','rb')
     video_bytes = video_file.read()
     
     #video1 = "https://youtu.be/5iVqq-indVw" 
