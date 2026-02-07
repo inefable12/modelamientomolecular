@@ -79,20 +79,23 @@ def Home():
         Avogadro 1.2, ORCA 6.1, ChemCraft 1.8, PyMOL 3.1.4.1, sin embargo, constantemente se brindarán alternativas para trabajar desde la nube. 
         Así, recalcamos que no hay requerimientos mínimos de hardware para realizar el curso con normalidad.""")
         
-        st.write("Las imágenes, video, artículo y animaciones mostradas a continuación forman parte del contenido de ejercicios que veremos en el curso.")
-        st.text("Video resumen del artículo adjunto. Fuente: Elaboración propia. Generada con NotebookLM")
+        st.write("Las imágenes, videos, artículos y animaciones mostradas a continuación forman parte del contenido de ejercicios que veremos en el curso.")
+        st.text("1. Videos resumiendo artículos o tutoriales, utilizando NotebookLM de Google")
         st.video("imagenes_/video2.mp4") 
+        st.text("2. Literatura de la sesión (Flipped Classroom)")        
         st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
+        st.text("3. Videotutoriales cortos")
+        st.text("4. Flashcards")
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
                 caption="Representación Molecular. Fuente: Elaboración propia. Generada con la Suite Schrodinger.") 
         
     with col_right:
-        st.write("Frecuencia imaginaria del TS en SN2. Fuente: Visualize Organic Chemistry (New Jersey Institute of Technology). Generado con el programa GaussView")
+        st.write("5. Obtención de Frecuencia imaginaria para hallar el TS. Fuente de la imagen: Visualize Organic Chemistry (New Jersey Institute of Technology). Generado con el programa GaussView")
         st.markdown("![Alt Text](https://visualizeorgchem.com/images/tutorial-PES/SN2-freq.gif)")
         st.write("De Schlegel, HB J. Comput. Chem. 2003 , 24 , 1514-1527.")
         st.image("imagenes_/PES.jpg")
         st.image("imagenes_/tip4p.png", 
-                 caption="Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia. Generada con PyMOL y GROMACS",
+                 caption="6. Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia. Generada con PyMOL y GROMACS",
                  use_container_width=True)
         st.image("imagenes_/tip5p.png", use_container_width=True)
 
