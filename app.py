@@ -23,7 +23,7 @@ def Home():
     #st.markdown("---")
     st.text("Curso Virtual Teórico–Práctico")
 
-    st.image("imagenes_/molecula2.png", caption = "Mapa de Potencial Electrostático")
+    st.image("imagenes_/molecula2.png", caption = "Mapa de Potencial Electrostático. Fuente: Elaboración propia. Generada con Avogadro y POV-Ray")
              
     st.write("""
     Bienvenidos a la plataforma web del curso, en este espacio se irá compartiendo el contenido de las sesiones semana a semana: 
@@ -72,14 +72,19 @@ def Home():
             hide_index=True,
             use_container_width=True
         )
-        st.video("imagenes_/video2.mp4") 
+
+        st.write("Las imágenes, video, artículo y animaciones mostradas a continuación forman parte del contenido de ejercicios que veremos en el curso.")
+        
+        st.video("imagenes_/video2.mp4", caption = "Video resumen del artículo adjunto. Fuente: Elaboración propia. Generada con NotebookLM") 
         st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
-                caption="Representación Molecular") 
+                caption="Representación Molecular. Fuente: Elaboración propia. Generada con la Suite Schrodinger.") 
         
     with col_right:
+        st.info("Ley de Boyle-Mariotte (Proceso isotérmico: T cte)")
+        st.markdown("![Alt Text](https://visualizeorgchem.com/images/tutorial-PES/SN2-freq.gif)")
         st.image("imagenes_/tip4p.png", 
-                 caption="Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo)",
+                 caption="Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia. Generada con PyMOL y GROMACS",
                  use_container_width=True)
         st.image("imagenes_/tip5p.png", use_container_width=True)
 
