@@ -102,7 +102,6 @@ def Home():
         st.text("8. Código para generación de gráficas. Fuente: https://joaquinbarroso.com/2022/05/18/dft-beyond-academia/")
         st.image("imagenes_/dft.png")
 
-    @st.cache_data(ttl=3600)
     def obtener_frase():
         try:
             res = requests.get(
@@ -117,6 +116,10 @@ def Home():
 
 
     st.markdown("---")
+
+    frase = obtener_frase()
+    st.write(frase)
+
     st.markdown(
         f"""
         <div style='text-align: center; color: #555555;'>
