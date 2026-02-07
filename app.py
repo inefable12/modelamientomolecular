@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
+import requests
 
 # =========================================================
 # CONFIGURACIÓN GENERAL
@@ -84,8 +85,9 @@ def Home():
         st.video("imagenes_/video2.mp4") 
         st.text("2. Literatura de la sesión (Flipped Classroom)")        
         st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
-        st.text("3. Videotutoriales cortos")
-        st.text("4. Flashcards")
+        st.text("3. Videotutoriales cortos desde TikTok")
+        st.video("imagenes_/video3.mp4")
+        st.text("4. Flashcards y cuestionarios interactivos con NotebookLM")
         st.image("imagenes_/flashcards1.PNG")       
     with col_right:
         st.write("5. Obtención de Frecuencia imaginaria para hallar el TS. Fuente de la imagen: Visualize Organic Chemistry (New Jersey Institute of Technology). Generado con el programa GaussView")
@@ -99,6 +101,10 @@ def Home():
         st.image("imagenes_/WIZARD_3PL1_esquema.png") 
         st.text("8. Código para generación de gráficas. Fuente: https://joaquinbarroso.com/2022/05/18/dft-beyond-academia/")
         st.image("imagenes_/dft.png")
+
+    res = requests.get("https://api.quotable.io/random")
+    data = res.json()
+    print(data["content"], "-", data["author"])
 
     st.markdown("---")
     st.markdown(
