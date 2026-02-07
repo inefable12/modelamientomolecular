@@ -73,7 +73,7 @@ def Home():
             use_container_width=True
         )
 
-        st.info("## Antes de iniciar...")
+        st.info("## IMPORTANTE:")
 
         st.write("""A lo largo del curso iremos sugiriendo la instalación de algunos programas de acceso gratuito, como por ejemplo, 
         Avogadro 1.2, ORCA 6.1, ChemCraft 1.8, PyMOL 3.1.4.1, sin embargo, constantemente se brindarán alternativas para trabajar desde la nube. 
