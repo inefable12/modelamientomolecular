@@ -81,7 +81,6 @@ def Home():
                 caption="Representación Molecular. Fuente: Elaboración propia. Generada con la Suite Schrodinger.") 
         
     with col_right:
-        st.info("Ley de Boyle-Mariotte (Proceso isotérmico: T cte)")
         st.markdown("![Alt Text](https://visualizeorgchem.com/images/tutorial-PES/SN2-freq.gif)")
         st.image("imagenes_/tip4p.png", 
                  caption="Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia. Generada con PyMOL y GROMACS",
