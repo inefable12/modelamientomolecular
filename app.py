@@ -88,17 +88,16 @@ def Home():
         st.text("4. Flashcards")
         st.text("5. Código para generación de gráficas (https://joaquinbarroso.com/2022/05/18/dft-beyond-academia/)")
         st.image("imagenes_/dft.png")
-        st.image("imagenes_/WIZARD_3PL1_esquema.png",
-                caption="6. Uso representación molecular. Fuente: Elaboración propia. Generada con la Suite Schrodinger.") 
+        st.write("6. Uso de software especializado gratuito para el generación de representaciones moleculares. Fuente: Elaboración propia. Generada con la Suite Schrodinger.")
+        st.image("imagenes_/WIZARD_3PL1_esquema.png") 
         
     with col_right:
         st.write("7. Obtención de Frecuencia imaginaria para hallar el TS. Fuente de la imagen: Visualize Organic Chemistry (New Jersey Institute of Technology). Generado con el programa GaussView")
         st.markdown("![Alt Text](https://visualizeorgchem.com/images/tutorial-PES/SN2-freq.gif)")
         st.write("De Schlegel, HB J. Comput. Chem. 2003 , 24 , 1514-1527.")
         st.image("imagenes_/PES.jpg")
-        st.image("imagenes_/tip4p.png", 
-                 caption="8. Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia. Generada con PyMOL y GROMACS",
-                 use_container_width=True)
+        st.image("imagenes_/tip4p.png", use_container_width=True)
+        st.write("8. Uso de software especializado gratuito para la visualización de modelos. En el ejemplo, modelos de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia. Generada con PyMOL y GROMACS")
         st.image("imagenes_/tip5p.png", use_container_width=True)
 
     st.markdown("---")
