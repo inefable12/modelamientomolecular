@@ -73,6 +73,12 @@ def Home():
             use_container_width=True
         )
 
+        st.info("## Antes de iniciar...")
+
+        st.write("""A lo largo del curso iremos sugiriendo la instalación de algunos programas de acceso gratuito, como por ejemplo, 
+        Avogadro 1.2, ORCA 6.1, ChemCraft 1.8, PyMOL 3.1.4.1, sin embargo, constantemente se brindarán alternativas para trabajar desde la nube. 
+        Así, recalcamos que no hay requerimientos mínimos de hardware para realizar el curso con normalidad.""")
+        
         st.write("Las imágenes, video, artículo y animaciones mostradas a continuación forman parte del contenido de ejercicios que veremos en el curso.")
         st.text("Video resumen del artículo adjunto. Fuente: Elaboración propia. Generada con NotebookLM")
         st.video("imagenes_/video2.mp4") 
