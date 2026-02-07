@@ -82,7 +82,7 @@ def Home():
         
     with col_right:
         st.markdown("![Alt Text](https://visualizeorgchem.com/images/tutorial-PES/SN2-freq.gif)", caption="Frecuencia imaginaria del TS en SN2. Fuente: Visualize Organic Chemistry (New Jersey Institute of Technology).")
-        st.image("![Alt Text](https://visualizeorgchem.com/images/tutorial-PES/PES.jpg)")
+        st.image("imagenes_/PES.jpg")
         st.image("imagenes_/tip4p.png", 
                  caption="Modelo de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia. Generada con PyMOL y GROMACS",
                  use_container_width=True)
