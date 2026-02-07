@@ -65,7 +65,7 @@ def Home():
     })
     
     # ------------------ Layout ------------------
-    col_left, col_right = st.columns([3, 2])
+    col_left, col_right = st.columns([1, 1])
     
     with col_left:
         st.dataframe(
@@ -83,10 +83,12 @@ def Home():
         st.write("Las imágenes, videos, artículos y animaciones mostradas a continuación forman parte del contenido de ejercicios que veremos en el curso.")
         st.text("1. Videos resumiendo artículos o tutoriales, utilizando NotebookLM de Google")
         st.video("imagenes_/video2.mp4") 
+        
         st.text("2. Literatura de la sesión (Flipped Classroom)")        
         st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
+        
         url = "https://www.tiktok.com/@inefable12x/video/7604144200048741650?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
-        st.text("3. Videotutoriales cortos desde [TikTok](%s)" % url)       
+        st.markdown("3. Videotutoriales cortos desde [TikTok](%s)" % url)       
         st.video("imagenes_/video3.mp4")
         st.text("4. Flashcards y cuestionarios interactivos con NotebookLM")
         st.image("imagenes_/flashcards1.PNG")       
