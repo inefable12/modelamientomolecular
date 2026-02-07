@@ -87,7 +87,7 @@ def Home():
         st.text("3. Videotutoriales cortos")
         st.text("4. Flashcards")
         st.text("5. Código para generación de gráficas (https://joaquinbarroso.com/2022/05/18/dft-beyond-academia/)")
-        st.image("dft.png")
+        st.image("imagenes_/dft.png")
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
                 caption="6. Uso representación molecular. Fuente: Elaboración propia. Generada con la Suite Schrodinger.") 
         
