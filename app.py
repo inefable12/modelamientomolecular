@@ -95,7 +95,7 @@ def Home():
         st.image("imagenes_/tip4p.png", use_container_width=True)
         st.write("6. Uso de PyMOL para la visualización de modelos. En el ejemplo, modelos de agua para simulaciones de dinámica molecular: TIP4P (arriba) & TIP5P (abajo). Fuente: Elaboración propia.")
         st.image("imagenes_/tip5p.png", use_container_width=True)
-        st.write("7. Uso de software especializado gratuito para el generación de representaciones moleculares. Fuente: Elaboración propia. Generada con la Suite Schrodinger.")
+        st.write("7. Uso de software especializado gratuito para el generación de representaciones moleculares. Fuente: Elaboración propia.")
         st.image("imagenes_/WIZARD_3PL1_esquema.png") 
         st.text("8. Código para generación de gráficas (https://joaquinbarroso.com/2022/05/18/dft-beyond-academia/)")
         st.image("imagenes_/dft.png")
