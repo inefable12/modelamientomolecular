@@ -86,7 +86,7 @@ def Home():
         st.text("2. Literatura de la sesión (Flipped Classroom)")        
         st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
         st.text("3. Videotutoriales cortos desde TikTok")
-        st.video("imagenes_/video3.mp4")
+        #st.video("imagenes_/video3.mp4")
         st.text("4. Flashcards y cuestionarios interactivos con NotebookLM")
         st.image("imagenes_/flashcards1.PNG")       
     with col_right:
