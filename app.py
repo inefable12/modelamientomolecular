@@ -86,6 +86,7 @@ def Home():
         st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
         st.text("3. Videotutoriales cortos")
         st.text("4. Flashcards")
+        st.image("imagenes_/flashcards1.PNG")
         st.text("5. Código para generación de gráficas (https://joaquinbarroso.com/2022/05/18/dft-beyond-academia/)")
         st.image("imagenes_/dft.png")
         st.write("6. Uso de software especializado gratuito para el generación de representaciones moleculares. Fuente: Elaboración propia. Generada con la Suite Schrodinger.")
