@@ -74,8 +74,8 @@ def Home():
         )
 
         st.write("Las imágenes, video, artículo y animaciones mostradas a continuación forman parte del contenido de ejercicios que veremos en el curso.")
-        
-        st.video("imagenes_/video2.mp4", caption = "Video resumen del artículo adjunto. Fuente: Elaboración propia. Generada con NotebookLM") 
+        st.text("Video resumen del artículo adjunto. Fuente: Elaboración propia. Generada con NotebookLM")
+        st.video("imagenes_/video2.mp4") 
         st.pdf("imagenes_/Avogadro_como_herramienta_edu.pdf")
         st.image("imagenes_/WIZARD_3PL1_esquema.png",
                 caption="Representación Molecular. Fuente: Elaboración propia. Generada con la Suite Schrodinger.") 
