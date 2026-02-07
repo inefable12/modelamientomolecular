@@ -102,18 +102,18 @@ def Home():
         st.text("8. Código para generación de gráficas. Fuente: https://joaquinbarroso.com/2022/05/18/dft-beyond-academia/")
         st.image("imagenes_/dft.png")
 
-@st.cache_data(ttl=3600)
-def obtener_frase():
-    try:
-        res = requests.get(
-            "https://api.quotable.io/random",
-            timeout=5,
-            verify=False
-        )
-        data = res.json()
-        return f"{data['content']} — {data['author']}"
-    except:
-        return "La química también necesita paciencia."
+    @st.cache_data(ttl=3600)
+    def obtener_frase():
+        try:
+            res = requests.get(
+                "https://api.quotable.io/random",
+                timeout=5,
+                verify=False
+            )
+            data = res.json()
+            return f"{data['content']} — {data['author']}"
+        except:
+            return "La química también necesita paciencia."
 
 
     st.markdown("---")
