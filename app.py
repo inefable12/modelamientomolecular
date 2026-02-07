@@ -116,7 +116,7 @@ def Home():
 
 
     st.markdown("---")
-    st.success("Cada vez que visites esta página te llevarás una frase 🙂"
+    st.success("Cada vez que visites esta página te llevarás una frase 🙂")
     frase = obtener_frase()
     st.write(frase)
 
