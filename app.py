@@ -152,9 +152,9 @@ def page3():
 
     st.markdown("""
     - Representación 2D y 3D
-    - Coordenadas cartesianas e internas
-    - Optimización geométrica
     """)
+
+    st.video("representaciones.mp4")
 
     st.info("Visualización molecular 3D (PubChem)")
     components.iframe(
