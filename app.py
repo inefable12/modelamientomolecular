@@ -142,7 +142,7 @@ def page2():
     - Niveles de teoría
     """)
 
-    st.video("imagenes_/video1.mp4")    
+    #st.video("imagenes_/video1.mp4")    
 
 # =========================================================
 # SESIÓN 2
