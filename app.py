@@ -150,11 +150,9 @@ def page2():
 def page3():
     st.header("Sesión 2: Representación Molecular y Optimización", divider="rainbow")
 
-    st.markdown("""
-    - Representación 2D y 3D
-    """)
+    st.markdown("- Representación 2D y 3D")
 
-    st.video("representaciones.mp4")
+    st.video("imagenes_/representaciones.mp4")
 
     st.info("Visualización molecular 3D (PubChem)")
     components.iframe(
