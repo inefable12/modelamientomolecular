@@ -174,7 +174,8 @@ def page4():
     - Superficies de energía potencial (SEP)
     """)
 
-    st.image("https://ars.els-cdn.com/content/image/1-s2.0-S0019452224001559-gr8.jpg")
+    st.image("https://ars.els-cdn.com/content/image/1-s2.0-S0019452224001559-gr8.jpg",
+            caption = "https://www.sciencedirect.com/science/article/pii/S0019452224001559")
 
 # =========================================================
 # SESIÓN 4
