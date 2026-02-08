@@ -174,7 +174,7 @@ def page4():
     - Superficies de energía potencial (SEP)
     """)
 
-    st.image("img/pes_diagram.png", caption="Superficie de Energía Potencial")
+    st.image("https://ars.els-cdn.com/content/image/1-s2.0-S0019452224001559-gr8.jpg")
 
 # =========================================================
 # SESIÓN 4
@@ -182,15 +182,13 @@ def page4():
 def page5():
     st.header("Sesión 4: Campos de Fuerza y Métodos de Cálculo", divider="rainbow")
 
+    st.markdown("![Alt Text](https://i.makeagif.com/media/7-04-2020/zpBEQV.gif)")
+    
     st.markdown("""
     **Mecánica Molecular (MM)**
-    - AMBER
-    - CHARMM
 
     **Métodos Cuánticos (QM)**
-    - Hartree–Fock
-    - DFT
-    - Métodos semiempíricos
+
     """)
 
 # =========================================================
