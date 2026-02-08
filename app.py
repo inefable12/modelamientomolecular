@@ -211,8 +211,8 @@ def page7():
     st.header("Sesión 6: Coordenada de Reacción y Estados de Transición",
               divider="rainbow")
 
-    st.image("img/reaction_coordinate.png",
-             caption="Coordenada de reacción y estado de transición")
+    st.image("https://www.faccts.de/docs/orca/6.1/tutorials/_images/fig_scan.png",
+             caption="https://www.faccts.de/docs/orca/6.1/tutorials/react/tsopt.html")
 
 # =========================================================
 # SESIÓN 7
