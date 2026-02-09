@@ -137,13 +137,11 @@ def Home():
 # =========================================================
 def page2():
     st.header("Sesión 1: Introducción al Modelamiento Molecular", divider="rainbow")
-    st.markdown("""
-    - ¿Qué es el modelamiento molecular?
-    - Niveles de teoría
-    """)
+    diapositivas1 = "https://docs.google.com/presentation/d/1rkpRO3TsS7t5_ykVsOrYUes-9YkQ-6e4/preview"
+    st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
-    url = "https://www.tiktok.com/@inefable12x/video/7604749686540356871?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
-    st.markdown("Ejercicio: Luego de ver el siguiente video y replica los resultados pero mejorando el procedimiento: [TikTok](%s)" % url)  
+    url1 = "https://www.tiktok.com/@inefable12x/video/7604749686540356871?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
+    st.markdown("Ejercicio: Luego de ver el siguiente video y replica los resultados pero mejorando el procedimiento: [TikTok](%s)" % url1)  
 
 # =========================================================
 # SESIÓN 2
