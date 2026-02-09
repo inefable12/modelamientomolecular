@@ -143,7 +143,7 @@ def page2():
     """)
 
     url_s1 = "https://www.tiktok.com/@inefable12x/video/7604749686540356871?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
-    st.markdown("Ejercicio: Luego de ver el siguiente video y replica los resultados pero mejorando el procedimiento: [TikTok](%s)" % url_s1)  
+    st.markdown("Ejercicio: Luego de ver el siguiente video y replica los resultados pero mejorando el procedimiento: " % url_s1)  
     #st.video("imagenes_/video1.mp4")    
 
 # =========================================================
