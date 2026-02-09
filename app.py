@@ -141,6 +141,9 @@ def page2():
     diapositivas1 = "https://docs.google.com/presentation/d/1rdL4-WWyLI8P2oKogM4omHbSn3dKEDio_Z0HCEFZOPM/preview"
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
+    st.info("Literatura de la sesión (Flipped Classroom)")        
+    st.pdf("Guias/s1_lectura_.pdf")
+
     url1 = "https://www.tiktok.com/@inefable12x/video/7604749686540356871?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
     st.markdown("Ejercicio: Luego de ver el siguiente video replica los resultados ¿De qué manera podemos mejorar el procedimiento? --> [TikTok](%s)" % url1)  
 
