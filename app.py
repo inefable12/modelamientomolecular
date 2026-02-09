@@ -142,9 +142,8 @@ def page2():
     - Niveles de teoría
     """)
 
-    url_s1 = "https://www.tiktok.com/@inefable12x/video/7604749686540356871"
-    #https://www.tiktok.com/@inefable12x/video/7604144200048741650?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
-    st.markdown("3. Videotutoriales cortos desde [TikTok](%s)" % url_s1)  
+    url_s1 = "https://www.tiktok.com/@inefable12x/video/7604749686540356871?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
+    st.markdown("Ejercicio: Luego de ver el siguiente video y replica los resultados pero mejorando el procedimiento: [TikTok](%s)" % url_s1)  
     #st.video("imagenes_/video1.mp4")    
 
 # =========================================================
