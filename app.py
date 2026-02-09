@@ -142,7 +142,7 @@ def page2():
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
     url1 = "https://www.tiktok.com/@inefable12x/video/7604749686540356871?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
-    st.markdown("Ejercicio: Luego de ver el siguiente video y replica los resultados pero mejorando el procedimiento: [TikTok](%s)" % url1)  
+    st.markdown("Ejercicio: Luego de ver el siguiente video replica los resultados ¿De qué manera podemos mejorar el procedimiento? --> [TikTok](%s)" % url1)  
 
 # =========================================================
 # SESIÓN 2
