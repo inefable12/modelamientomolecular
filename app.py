@@ -137,7 +137,8 @@ def Home():
 # =========================================================
 def page2():
     st.header("Sesión 1: Introducción al Modelamiento Molecular", divider="rainbow")
-    diapositivas1 = "https://docs.google.com/presentation/d/1rkpRO3TsS7t5_ykVsOrYUes-9YkQ-6e4/preview"
+    #diapositivas1 = "https://docs.google.com/presentation/d/1rkpRO3TsS7t5_ykVsOrYUes-9YkQ-6e4/preview"
+    diapositivas1 = "https://docs.google.com/presentation/d/1rdL4-WWyLI8P2oKogM4omHbSn3dKEDio_Z0HCEFZOPM/preview"
     st.markdown(f'<iframe src="{diapositivas1}" width="800" height="500"></iframe>', unsafe_allow_html=True)
 
     url1 = "https://www.tiktok.com/@inefable12x/video/7604749686540356871?is_from_webapp=1&sender_device=pc&web_id=7537296124756968965"
