@@ -171,6 +171,11 @@ def page4():
     st.header("Sesión 3: Energía Molecular y Superficies de Energía Potencial",
               divider="rainbow")
 
+    st.title("1. ¿Qué funcional elegir?")
+    st.video("imagenes_/video4.mp4") 
+    st.pdf("Guias/s3_lectura.pdf")
+
+    
     st.markdown("""
     - Energía electrónica
     - Mínimos y puntos silla
