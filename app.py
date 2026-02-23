@@ -174,9 +174,6 @@ def page4():
     st.title("1. ¿Qué funcional elegir?")
     st.video("imagenes_/video4.mp4") 
     st.pdf("Guias/s3_lectura.pdf")
-
-    url3 = "https://www.tiktok.com/@inefable12x/video/7610172799038000392?is_from_webapp=1&sender_device=pc&web_id=7604018958845740565"
-    st.markdown("MEP usando ORCA [TikTok](%s)" % url3)   
     
     #st.markdown("""
     #- Energía electrónica
@@ -184,11 +181,12 @@ def page4():
     #- Superficies de energía potencial (SEP)
     #""")
 
-    st.info("Ejercicio: Genera un MEP")
-    st.text("Entregable con nota, hasta las 18:30 (dentro de la clase). Los grupos pueden ser hasta de 3.")
-    st.text("Se presenta adjuntando el enlace de su github con los resultados en el excel compartido del curso.")
+    st.info("Entregable #2: Genera un MEP")
+    url3 = "https://www.tiktok.com/@inefable12x/video/7610172799038000392?is_from_webapp=1&sender_device=pc&web_id=7604018958845740565"
+    st.markdown("Emplea el videotutorial para la generación de MEP usando ORCA y Chemcraft en el siguiente enlace de [TikTok](%s)" % url3) 
+    st.text("Forma un grupo de hasta 3 integrantes y sube tu enlace de github con los resultados (inp, out, cube, imagen) en el excel compartido del curso hasta las 18:30 (dentro de la clase de hoy).")
     st.image("https://ars.els-cdn.com/content/image/1-s2.0-S0019452224001559-gr8.jpg",
-            caption = "https://www.sciencedirect.com/science/article/pii/S0019452224001559")
+            caption = "Hay muchos ejemplos que te pueden servir de inspiración en la literatura: https://www.sciencedirect.com/science/article/pii/S0019452224001559")
 
 # =========================================================
 # SESIÓN 4
