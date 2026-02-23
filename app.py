@@ -175,13 +175,18 @@ def page4():
     st.video("imagenes_/video4.mp4") 
     st.pdf("Guias/s3_lectura.pdf")
 
+    url3 = "https://www.tiktok.com/@inefable12x/video/7610172799038000392?is_from_webapp=1&sender_device=pc&web_id=7604018958845740565"
+    st.markdown("MEP usando ORCA [TikTok](%s)" % url3)   
     
-    st.markdown("""
-    - Energía electrónica
-    - Mínimos y puntos silla
-    - Superficies de energía potencial (SEP)
-    """)
+    #st.markdown("""
+    #- Energía electrónica
+    #- Mínimos y puntos silla
+    #- Superficies de energía potencial (SEP)
+    #""")
 
+    st.info("Ejercicio: Genera un MEP")
+    st.text("Entregable con nota, hasta las 18:30 (dentro de la clase). Los grupos pueden ser hasta de 3.")
+    st.text("Se presenta adjuntando el enlace de su github con los resultados en el excel compartido del curso.")
     st.image("https://ars.els-cdn.com/content/image/1-s2.0-S0019452224001559-gr8.jpg",
             caption = "https://www.sciencedirect.com/science/article/pii/S0019452224001559")
 
