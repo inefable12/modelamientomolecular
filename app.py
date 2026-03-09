@@ -197,9 +197,13 @@ def page5():
     st.markdown("![Alt Text](https://i.makeagif.com/media/7-04-2020/zpBEQV.gif)")
     
     st.markdown("""
-    **Mecánica Molecular (MM)**
-
-    **Métodos Cuánticos (QM)**
+    Material de práctica:
+    En este colab, realizamos la dinámica molecular CG del DPPC en agua (solvente explícito, TIP3P) 
+    a diferentes temperaturas. Todo el procedimiento puede realizarse desde este cuaderno de código 
+    (Colab) y no es necesario instalar algún programa a tu computadora o descargar algún archivo extra. 
+    Este material está dirigido para iniciantes en Gromacs que no dispongan de una PC con sistema operativo Linux.
+    
+    - https://github.com/inefable12/cgmartini/blob/main/MDS_CG.ipynb
 
     """)
 
