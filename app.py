@@ -213,11 +213,20 @@ def page5():
 def page6():
     st.header("Sesión 5: Introducción a Mecanismos de Reacción", divider="rainbow")
 
+    st.info("Lectura de la sesión: ")        
+    st.pdf("Guias/s5_lectura_.pdf")
+
+    st.success("Actividad #3")
     st.markdown("""
-    - Concepto de mecanismo
-    - Reactivos, productos e intermediarios
-    - Energía y reactividad
+    [Se desarrolla dentro de la sesión de clase] Basada en la siguiente lectura: 'Érase 
+    una vez un pizarrón: anécdotas, historias e ideas que surgieron durante las clases 
+    de Química Orgánica', escribe el mecanismo para cada reacción discutida en las 
+    figuras denominadas como 'Pizarrón'. Tendrás de un tiempo determinado para exponer 
+    el mecanismo que te haya tocado por sorteo.
     """)
+    st.pdf("Guias/s5_artículo.pdf")
+    
+
 
 # =========================================================
 # SESIÓN 6
