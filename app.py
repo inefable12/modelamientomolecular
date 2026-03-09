@@ -227,8 +227,10 @@ def page6():
     el mecanismo que te haya tocado por sorteo.
     """)
     st.pdf("Guias/s5_articulo.pdf")
-    
 
+    st.info("Escribir mecanismos de reacción")
+    url5 = "https://marvinjs-demo.chemaxon.com/latest/demo.html"
+    st.markdown("Puedes dibujar moléculas y representar los mecanismos de reacción [aquí](%s)" % url5)  
 
 # =========================================================
 # SESIÓN 6
