@@ -216,7 +216,7 @@ def page6():
     st.info("Lectura de la sesión: ")        
     st.pdf("Guias/s5_lectura_.pdf")
 
-    st.success("Actividad #3")
+    st.info("Actividad #3")
     st.markdown("""
     [Se desarrolla dentro de la sesión de clase] Basada en la siguiente lectura: 'Érase 
     una vez un pizarrón: anécdotas, historias e ideas que surgieron durante las clases 
