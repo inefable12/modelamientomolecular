@@ -213,7 +213,9 @@ def page5():
 def page6():
     st.header("Sesión 5: Introducción a Mecanismos de Reacción", divider="rainbow")
 
-    st.info("Lectura de la sesión: ")        
+    st.info("¿Cómo estás? 😊")     
+
+    st.write("Hoy vamos a escribir mecanismos y revisar generalidades, por favor, ten a la mano papel y lápiz")
     st.pdf("Guias/s5_lectura_.pdf")
 
     st.info("Actividad #3")
