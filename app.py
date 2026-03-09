@@ -232,6 +232,9 @@ def page6():
     url5 = "https://marvinjs-demo.chemaxon.com/latest/demo.html"
     st.markdown("Puedes dibujar moléculas y representar los mecanismos de reacción [aquí](%s)" % url5)  
 
+    st.image("imagenes_/rxn_acido_base.png", caption = "Herramienta para la edición gratuita y on line de MarvinSketch")
+     
+
 # =========================================================
 # SESIÓN 6
 # =========================================================
