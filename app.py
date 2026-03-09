@@ -224,7 +224,7 @@ def page6():
     figuras denominadas como 'Pizarrón'. Tendrás de un tiempo determinado para exponer 
     el mecanismo que te haya tocado por sorteo.
     """)
-    st.pdf("Guias/s5_artículo.pdf")
+    st.pdf("Guias/s5_articulo.pdf")
     
 
 
